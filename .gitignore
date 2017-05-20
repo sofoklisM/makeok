@@ -1,0 +1,10 @@
+# Mac
+.DS_Store
+
+# ignore
+platforms
+plugins
+node_modules
+
+# res
+resources/signing
