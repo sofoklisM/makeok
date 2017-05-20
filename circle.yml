@@ -1,4 +1,4 @@
 checkout:
    post:
-     - npm install cordova
+     - npm install -g cordova
      - cordova prepare
