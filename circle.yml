@@ -1,5 +1,8 @@
-checkout:
+dependencies:
    post:
      - npm install -g cordova
+     
+compile:
+    post:     
      - cordova prepare
-     - cordova build
+     - cordova build android --release
