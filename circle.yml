@@ -8,4 +8,4 @@ compile:
     post:     
      - cordova prepare
      - cordova build android --release
-     - $ANDROID_HOME/build-tools/25.0.3/zipalign -f -v 4 ./platforms/android/build/outputs/apk/android-release-unsigned.apk ./platforms/android/build/outputs/apk/android-release.apk
+     - $ANDROID_HOME/build-tools/25.0.1/zipalign -f -v 4 ./platforms/android/build/outputs/apk/android-release-unsigned.apk ./platforms/android/build/outputs/apk/android-release.apk
